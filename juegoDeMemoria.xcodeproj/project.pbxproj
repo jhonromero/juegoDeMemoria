@@ -47,6 +47,7 @@
 		A91C8B8B1C88EB1900C9D47C /* juegoDeMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juegoDeMemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91C8B8F1C88EB1900C9D47C /* juegoDeMemoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juegoDeMemoriaUITests.swift; sourceTree = "<group>"; };
 		A91C8B911C88EB1900C9D47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91C8B9D1C88EB3100C9D47C /* juegoDeMemoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = juegoDeMemoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		A91C8B631C88EB1800C9D47C = {
 			isa = PBXGroup;
 			children = (
+				A91C8B9D1C88EB3100C9D47C /* juegoDeMemoria.playground */,
 				A91C8B6E1C88EB1800C9D47C /* juegoDeMemoria */,
 				A91C8B831C88EB1800C9D47C /* juegoDeMemoriaTests */,
 				A91C8B8E1C88EB1900C9D47C /* juegoDeMemoriaUITests */,

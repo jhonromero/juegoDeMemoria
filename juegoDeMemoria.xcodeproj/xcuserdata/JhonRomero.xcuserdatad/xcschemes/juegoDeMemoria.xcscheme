@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A91C8B6B1C88EB1800C9D47C"
+               BuildableName = "juegoDeMemoria.app"
+               BlueprintName = "juegoDeMemoria"
+               ReferencedContainer = "container:juegoDeMemoria.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A91C8B7F1C88EB1800C9D47C"
+               BuildableName = "juegoDeMemoriaTests.xctest"
+               BlueprintName = "juegoDeMemoriaTests"
+               ReferencedContainer = "container:juegoDeMemoria.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A91C8B8A1C88EB1900C9D47C"
+               BuildableName = "juegoDeMemoriaUITests.xctest"
+               BlueprintName = "juegoDeMemoriaUITests"
+               ReferencedContainer = "container:juegoDeMemoria.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A91C8B6B1C88EB1800C9D47C"
+            BuildableName = "juegoDeMemoria.app"
+            BlueprintName = "juegoDeMemoria"
+            ReferencedContainer = "container:juegoDeMemoria.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A91C8B6B1C88EB1800C9D47C"
+            BuildableName = "juegoDeMemoria.app"
+            BlueprintName = "juegoDeMemoria"
+            ReferencedContainer = "container:juegoDeMemoria.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A91C8B6B1C88EB1800C9D47C"
+            BuildableName = "juegoDeMemoria.app"
+            BlueprintName = "juegoDeMemoria"
+            ReferencedContainer = "container:juegoDeMemoria.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
