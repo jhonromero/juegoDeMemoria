@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A91C8B701C88EB1800C9D47C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C8B6F1C88EB1800C9D47C /* AppDelegate.swift */; };
+		A91C8B721C88EB1800C9D47C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C8B711C88EB1800C9D47C /* ViewController.swift */; };
+		A91C8B751C88EB1800C9D47C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91C8B731C88EB1800C9D47C /* Main.storyboard */; };
+		A91C8B771C88EB1800C9D47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91C8B761C88EB1800C9D47C /* Assets.xcassets */; };
+		A91C8B7A1C88EB1800C9D47C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91C8B781C88EB1800C9D47C /* LaunchScreen.storyboard */; };
+		A91C8B851C88EB1800C9D47C /* juegoDeMemoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C8B841C88EB1800C9D47C /* juegoDeMemoriaTests.swift */; };
+		A91C8B901C88EB1900C9D47C /* juegoDeMemoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C8B8F1C88EB1900C9D47C /* juegoDeMemoriaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A91C8B811C88EB1800C9D47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91C8B641C88EB1800C9D47C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91C8B6B1C88EB1800C9D47C;
+			remoteInfo = juegoDeMemoria;
+		};
+		A91C8B8C1C88EB1900C9D47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91C8B641C88EB1800C9D47C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91C8B6B1C88EB1800C9D47C;
+			remoteInfo = juegoDeMemoria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A91C8B6C1C88EB1800C9D47C /* juegoDeMemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juegoDeMemoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91C8B6F1C88EB1800C9D47C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A91C8B711C88EB1800C9D47C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A91C8B741C88EB1800C9D47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A91C8B761C88EB1800C9D47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A91C8B791C88EB1800C9D47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A91C8B7B1C88EB1800C9D47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91C8B801C88EB1800C9D47C /* juegoDeMemoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juegoDeMemoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91C8B841C88EB1800C9D47C /* juegoDeMemoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juegoDeMemoriaTests.swift; sourceTree = "<group>"; };
+		A91C8B861C88EB1800C9D47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91C8B8B1C88EB1900C9D47C /* juegoDeMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juegoDeMemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91C8B8F1C88EB1900C9D47C /* juegoDeMemoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juegoDeMemoriaUITests.swift; sourceTree = "<group>"; };
+		A91C8B911C88EB1900C9D47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A91C8B691C88EB1800C9D47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91C8B7D1C88EB1800C9D47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91C8B881C88EB1900C9D47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A91C8B631C88EB1800C9D47C = {
+			isa = PBXGroup;
+			children = (
+				A91C8B6E1C88EB1800C9D47C /* juegoDeMemoria */,
+				A91C8B831C88EB1800C9D47C /* juegoDeMemoriaTests */,
+				A91C8B8E1C88EB1900C9D47C /* juegoDeMemoriaUITests */,
+				A91C8B6D1C88EB1800C9D47C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A91C8B6D1C88EB1800C9D47C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A91C8B6C1C88EB1800C9D47C /* juegoDeMemoria.app */,
+				A91C8B801C88EB1800C9D47C /* juegoDeMemoriaTests.xctest */,
+				A91C8B8B1C88EB1900C9D47C /* juegoDeMemoriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A91C8B6E1C88EB1800C9D47C /* juegoDeMemoria */ = {
+			isa = PBXGroup;
+			children = (
+				A91C8B6F1C88EB1800C9D47C /* AppDelegate.swift */,
+				A91C8B711C88EB1800C9D47C /* ViewController.swift */,
+				A91C8B731C88EB1800C9D47C /* Main.storyboard */,
+				A91C8B761C88EB1800C9D47C /* Assets.xcassets */,
+				A91C8B781C88EB1800C9D47C /* LaunchScreen.storyboard */,
+				A91C8B7B1C88EB1800C9D47C /* Info.plist */,
+			);
+			path = juegoDeMemoria;
+			sourceTree = "<group>";
+		};
+		A91C8B831C88EB1800C9D47C /* juegoDeMemoriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A91C8B841C88EB1800C9D47C /* juegoDeMemoriaTests.swift */,
+				A91C8B861C88EB1800C9D47C /* Info.plist */,
+			);
+			path = juegoDeMemoriaTests;
+			sourceTree = "<group>";
+		};
+		A91C8B8E1C88EB1900C9D47C /* juegoDeMemoriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A91C8B8F1C88EB1900C9D47C /* juegoDeMemoriaUITests.swift */,
+				A91C8B911C88EB1900C9D47C /* Info.plist */,
+			);
+			path = juegoDeMemoriaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A91C8B6B1C88EB1800C9D47C /* juegoDeMemoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91C8B941C88EB1900C9D47C /* Build configuration list for PBXNativeTarget "juegoDeMemoria" */;
+			buildPhases = (
+				A91C8B681C88EB1800C9D47C /* Sources */,
+				A91C8B691C88EB1800C9D47C /* Frameworks */,
+				A91C8B6A1C88EB1800C9D47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = juegoDeMemoria;
+			productName = juegoDeMemoria;
+			productReference = A91C8B6C1C88EB1800C9D47C /* juegoDeMemoria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A91C8B7F1C88EB1800C9D47C /* juegoDeMemoriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91C8B971C88EB1900C9D47C /* Build configuration list for PBXNativeTarget "juegoDeMemoriaTests" */;
+			buildPhases = (
+				A91C8B7C1C88EB1800C9D47C /* Sources */,
+				A91C8B7D1C88EB1800C9D47C /* Frameworks */,
+				A91C8B7E1C88EB1800C9D47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91C8B821C88EB1800C9D47C /* PBXTargetDependency */,
+			);
+			name = juegoDeMemoriaTests;
+			productName = juegoDeMemoriaTests;
+			productReference = A91C8B801C88EB1800C9D47C /* juegoDeMemoriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A91C8B8A1C88EB1900C9D47C /* juegoDeMemoriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91C8B9A1C88EB1900C9D47C /* Build configuration list for PBXNativeTarget "juegoDeMemoriaUITests" */;
+			buildPhases = (
+				A91C8B871C88EB1900C9D47C /* Sources */,
+				A91C8B881C88EB1900C9D47C /* Frameworks */,
+				A91C8B891C88EB1900C9D47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91C8B8D1C88EB1900C9D47C /* PBXTargetDependency */,
+			);
+			name = juegoDeMemoriaUITests;
+			productName = juegoDeMemoriaUITests;
+			productReference = A91C8B8B1C88EB1900C9D47C /* juegoDeMemoriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A91C8B641C88EB1800C9D47C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jhon Romero";
+				TargetAttributes = {
+					A91C8B6B1C88EB1800C9D47C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A91C8B7F1C88EB1800C9D47C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A91C8B6B1C88EB1800C9D47C;
+					};
+					A91C8B8A1C88EB1900C9D47C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A91C8B6B1C88EB1800C9D47C;
+					};
+				};
+			};
+			buildConfigurationList = A91C8B671C88EB1800C9D47C /* Build configuration list for PBXProject "juegoDeMemoria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A91C8B631C88EB1800C9D47C;
+			productRefGroup = A91C8B6D1C88EB1800C9D47C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A91C8B6B1C88EB1800C9D47C /* juegoDeMemoria */,
+				A91C8B7F1C88EB1800C9D47C /* juegoDeMemoriaTests */,
+				A91C8B8A1C88EB1900C9D47C /* juegoDeMemoriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A91C8B6A1C88EB1800C9D47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91C8B7A1C88EB1800C9D47C /* LaunchScreen.storyboard in Resources */,
+				A91C8B771C88EB1800C9D47C /* Assets.xcassets in Resources */,
+				A91C8B751C88EB1800C9D47C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91C8B7E1C88EB1800C9D47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91C8B891C88EB1900C9D47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A91C8B681C88EB1800C9D47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91C8B721C88EB1800C9D47C /* ViewController.swift in Sources */,
+				A91C8B701C88EB1800C9D47C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91C8B7C1C88EB1800C9D47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91C8B851C88EB1800C9D47C /* juegoDeMemoriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91C8B871C88EB1900C9D47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91C8B901C88EB1900C9D47C /* juegoDeMemoriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A91C8B821C88EB1800C9D47C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91C8B6B1C88EB1800C9D47C /* juegoDeMemoria */;
+			targetProxy = A91C8B811C88EB1800C9D47C /* PBXContainerItemProxy */;
+		};
+		A91C8B8D1C88EB1900C9D47C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91C8B6B1C88EB1800C9D47C /* juegoDeMemoria */;
+			targetProxy = A91C8B8C1C88EB1900C9D47C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A91C8B731C88EB1800C9D47C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A91C8B741C88EB1800C9D47C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A91C8B781C88EB1800C9D47C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A91C8B791C88EB1800C9D47C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A91C8B921C88EB1900C9D47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A91C8B931C88EB1900C9D47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A91C8B951C88EB1900C9D47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = juegoDeMemoria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jhon.juegoDeMemoria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A91C8B961C88EB1900C9D47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = juegoDeMemoria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jhon.juegoDeMemoria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A91C8B981C88EB1900C9D47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = juegoDeMemoriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jhon.juegoDeMemoriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/juegoDeMemoria.app/juegoDeMemoria";
+			};
+			name = Debug;
+		};
+		A91C8B991C88EB1900C9D47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = juegoDeMemoriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jhon.juegoDeMemoriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/juegoDeMemoria.app/juegoDeMemoria";
+			};
+			name = Release;
+		};
+		A91C8B9B1C88EB1900C9D47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = juegoDeMemoriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jhon.juegoDeMemoriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = juegoDeMemoria;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A91C8B9C1C88EB1900C9D47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = juegoDeMemoriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jhon.juegoDeMemoriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = juegoDeMemoria;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A91C8B671C88EB1800C9D47C /* Build configuration list for PBXProject "juegoDeMemoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91C8B921C88EB1900C9D47C /* Debug */,
+				A91C8B931C88EB1900C9D47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91C8B941C88EB1900C9D47C /* Build configuration list for PBXNativeTarget "juegoDeMemoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91C8B951C88EB1900C9D47C /* Debug */,
+				A91C8B961C88EB1900C9D47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A91C8B971C88EB1900C9D47C /* Build configuration list for PBXNativeTarget "juegoDeMemoriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91C8B981C88EB1900C9D47C /* Debug */,
+				A91C8B991C88EB1900C9D47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A91C8B9A1C88EB1900C9D47C /* Build configuration list for PBXNativeTarget "juegoDeMemoriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91C8B9B1C88EB1900C9D47C /* Debug */,
+				A91C8B9C1C88EB1900C9D47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A91C8B641C88EB1800C9D47C /* Project object */;
+}
